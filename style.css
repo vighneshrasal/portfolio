@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+/* font-family: 'Raleway', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow: hidden;
+}
+
+/* Main Div */
+.main{
+    display: flex;
+}
+
+/* Navigation-Bar */
+.navigation-bar{
+    max-height: 100vh; height: 100vh; max-width: 4rem; width: 4rem;
+    display: flex; justify-content: center;
+    padding-top: 1rem;
+    border-width: 1px; border-style:solid; border-color: rgb(117, 117, 117); border-top: none; border-bottom: none; border-left: none;
+}.navigation-bar ul{
+    display: flex; flex-direction: column; justify-content: space-around;    
+}.navigation-bar ul a{
+    text-decoration: none;
+}.navigation-bar ul a li{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 1.15rem; color: black;
+    writing-mode:vertical-lr; transform: scale(-1);
+    list-style: none;
+}.navigation-bar ul a li:hover{
+    color: rgb(242, 81, 27);
+}
+
+/* Name and Title */
+.name-and-title{
+    max-width: 100vw; width: 100vw; max-height: 100vh; height: 100vh;
+    padding-top: 5rem; padding-left: 4rem;
+}.name h1{
+    font-size: 3.5rem; font-family: 'Raleway', sans-serif;
+    padding-right: 5px;
+}.title h6{
+    font-size: 1.3125rem; font-family: 'Raleway', sans-serif;
+    color: rgb(242, 81, 27);
+}
