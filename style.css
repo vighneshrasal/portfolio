@@ -2,12 +2,12 @@
 /* font-family: 'Raleway', sans-serif; */
 
 *{
-    margin: 0;
+    margin: 0.5rem;
     padding: 0;
 }
 
 body{
-    overflow: hidden;
+    overflow:hidden;
     background-color: rgb(240, 240, 240);
 }
 
@@ -18,10 +18,9 @@ body{
 
 /* Navigation-Bar */
 .navigation-bar{
-    max-height: 100vh; height: 100vh; max-width: 5rem; width: 5rem;
+    max-height: 100vh; height: 100vh; max-width: 5rem; min-width: 4rem; width: 5rem;
     display: flex; justify-content: center;
-    padding-top: 1rem;
-    border-width: 1px; border-style:solid; border-color: rgb(117, 117, 117); border-top: none; border-bottom: none; border-left: none;
+    /* border-width: 1px; border-style:solid; border-color: rgb(117, 117, 117); border-top: none; border-bottom: none; border-left: none; */
 }.navigation-bar ul{
     display: flex; flex-direction: column; justify-content: space-around;    
 }.navigation-bar ul a{
@@ -54,16 +53,16 @@ body{
 }
 
 /* Follow on Socials */
-.follow-on-socials{
-    display: flex; justify-content: right;
-    margin-right: 10rem; margin-top: 35rem;
-}.follow-on-socials p{
+.follow-and-socials{
+    display: flex; flex-direction: column;
+}.follow-Me p{
+    padding-left: 0.7rem; padding-bottom: 0.7rem;
     font-family: 'Raleway', sans-serif; color: rgb(242, 81, 27); font-size: 1.3125rem;
 }
 
 /* Social Media Links */
 .socials{
-    margin-right: 5rem; padding-right: 4rem; margin-bottom: 1rem; padding-bottom: 5rem; 
+    margin-right: 5rem; padding-right: 8rem; margin-bottom: 1rem; padding-bottom: 5rem; 
     display: flex; justify-content: right;
     /* background-color: blue; */
 }.socials ul a li img{
