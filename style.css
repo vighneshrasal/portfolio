@@ -112,22 +112,30 @@
     padding-right: 2%;
 }.socials ul a{
     padding-left: 0.5rem; padding-right: 0.5rem;
+    pointer-events: none;
 }#social-list{
     transition: opacity 0.5s; opacity: 0;
 }.email{
     padding-right: 5rem; padding-top: 0.3rem; position: absolute; left: -16rem; bottom: 6rem;
-    opacity: 1;
+    opacity: 1; transition: opacity 0.5s;
 }.email p{
     font-size: 1.3125rem; font-family:'Raleway', sans-serif; color: rgb(242, 81, 27); padding-bottom: 0.5rem;
-    opacity: 0; transition: opacity 0.5s;
+    opacity: 1; transition: opacity 0.5s;
 }.email a {
     color: black; text-decoration: none; font-family: 'Lato', sans-serif; font-size: 1.2rem;
-    opacity: 0; transition: opacity 0.5s;
+    opacity: 1; transition: opacity 0.5s;
+    pointer-events: none;
 }.email a:hover{
     color: rgb(242, 81, 27);
 }.email-res{
-    opacity: 0;
-}.Hello h1{
+    opacity: 0; transition: opacity 0.5s;
+}.email-res p{
+    opacity: 0; transition: opacity 0.5s;
+}.email-res a{
+    opacity: 0; transition: opacity 0.5s;
+    pointer-events:none;
+}
+.Hello h1{
     margin-bottom: 1.5rem; margin-left: 1rem;
     font-size: clamp(2rem, 5vw, 3.5rem); font-family: 'Raleway', sans-serif;
     opacity: 1; transition: opacity 0.5s;
@@ -143,15 +151,18 @@
         min-width: 1rem; width: 1.5rem;
     }.email{
         padding-right: 0rem; left: -11.5rem;
-        opacity: 0;
+        opacity: 0; transition: opacity 0.5s;
+        display: none;
         /* background-color: red;  */
     }.email p{
         font-size: 1rem;
+        opacity: 0; transition: opacity 0.5s;
     }.email a{
         font-size: 1rem;
+        opacity: 0; transition: opacity 0.5s;
     }.email-res{
         padding-top: 1.5rem; padding-right: 1rem;
-        opacity: 1; transition: opacity 0.5s;
+        opacity: 1; transition: opacity 0.5;
     }.email-res p{
         font-size: 1.3125rem; font-family:'Raleway', sans-serif; color: rgb(242, 81, 27); padding-bottom: 0.5rem;
         opacity: 1; transition: opacity 0.5s;
