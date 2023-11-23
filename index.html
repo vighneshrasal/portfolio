@@ -4,39 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png">
     <title>Vighnesh Rasal</title>
 </head>
 <body>
     <div class="main">
         <div class="navigation-bar">
             <ul>
-                <a href="index.html"><li>Home</li></a>
-                <a href=""><li>About</li></a>
-                <a href=""><li>Resume</li></a>
-                <a href=""><li>Contact</li></a>
+                <li id="home">Home</li></a>
+                <li id="about">About</li>
+                <a href="Resume_Vighnesh_Rasal.pdf" target="_blank" id=nav-resume><li id="resume">Resume</li></a>
+                <li id="contact">Contact</li>
             </ul>
         </div>
         <div class="name-and-socials">
             <div class="name-and-title">
                 <div class="name">
-                    <h1>Vighnesh Rasal</h1>
+                    <h1 id="name">Vighnesh Rasal</h1>
                 </div>
                 <div class="title">
-                    <h6>Full Stack Developer</h6>
+                    <h6 id="title">Full Stack Developer</h6>
+                </div>
+            </div>
+
+            <div class="about">
+                <div class="para">
+                    <p id="para">"Born in 2001 in Mumbai, India. Completed Bachelor of Engineering in 2023. I am passionate about Web Development. My skills include HTML | CSS | JavaScript | Java | Spring | PostgreSQL."</p>
+                </div>
+                <div class="image">
+                    <img src="my_pic.jpeg" alt="" id="my_pic">
                 </div>
             </div>
 
             <div class="socials">
+                <div class="email">
+                    <p id="email">Let's Connect</p>
+                    <a href="mailto:vighneshrasal@gmail.com" id="emailid">vighneshrasal@gmail.com</a>
+                </div>
                 <div class="follow-and-socials">
-                    <div class="follow-Me"><p>Follow Me</p></div>
-                    <ul>
-                        <a href="https://www.linkedin.com/in/vighnesh-rasal/" target="_blank"><li><img src="linkedin.png" alt=""></li></a>
-                        <a href="https://github.com/vighneshrasal" target="_blank"><li><img src="github.png" alt=""></li></a>
-                        <a href="https://www.instagram.com/vighnesh_rasal/"><li><img src="instagram.png" alt=""></li></a>
-                    </ul>
+                    <div class="Hello">
+                        <h1 id="Hello">Hello<span id="orange">!</span></h1>
+                    </div>
+                    <div class="Follow-Me"><p id="Follow-Me">On the Internet</p></div>
+                    <div>
+                        <ul id="social-list">
+                            <a href="https://www.linkedin.com/in/vighnesh-rasal/" target="_blank"><li><img src="linkedin.png" alt=""></li></a>
+                            <a href="https://github.com/vighneshrasal" target="_blank"><li><img src="github.png" alt=""></li></a>
+                            <a href="https://www.instagram.com/vighnesh_rasal/" target="_blank"><li><img src="instagram.png" alt=""></li></a>
+                        </ul>
+                    </div>
+                    <div class="email-res">
+                        <p id="email-res">Let's Connect</p>
+                        <a href="mailto:vighneshrasal@gmail.com" id="emailid-res">vighneshrasal@gmail.com</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
